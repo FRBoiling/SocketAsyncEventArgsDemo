@@ -1,0 +1,9 @@
+C:\Users\zhx\Documents\Visual Studio 2012\Projects\socketAsync01\Client14\bin\Debug\Client14.exe.config
+C:\Users\zhx\Documents\Visual Studio 2012\Projects\socketAsync01\Client14\bin\Debug\Client14.exe
+C:\Users\zhx\Documents\Visual Studio 2012\Projects\socketAsync01\Client14\bin\Debug\Client14.pdb
+C:\Users\zhx\Documents\Visual Studio 2012\Projects\socketAsync01\Client14\obj\Debug\Client14.csprojResolveAssemblyReference.cache
+C:\Users\zhx\Documents\Visual Studio 2012\Projects\socketAsync01\Client14\obj\Debug\Client14.Form1.resources
+C:\Users\zhx\Documents\Visual Studio 2012\Projects\socketAsync01\Client14\obj\Debug\Client14.Properties.Resources.resources
+C:\Users\zhx\Documents\Visual Studio 2012\Projects\socketAsync01\Client14\obj\Debug\Client14.csproj.GenerateResource.Cache
+C:\Users\zhx\Documents\Visual Studio 2012\Projects\socketAsync01\Client14\obj\Debug\Client14.exe
+C:\Users\zhx\Documents\Visual Studio 2012\Projects\socketAsync01\Client14\obj\Debug\Client14.pdb
