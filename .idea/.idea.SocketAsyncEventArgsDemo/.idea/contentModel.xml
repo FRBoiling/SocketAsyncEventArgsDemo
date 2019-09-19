@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\WanXin\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_SocketAsyncEventArgsDemo.-1167374041.00" t="ExcludeRecursive" />
-    <e p="D:\code\SocketAsyncEventArgsDemo" t="IncludeFlat">
+    <e p="C:\Users\Boil\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Boil\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_SocketAsyncEventArgsDemo.-692377123.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\SocketAsyncEventArgsDemo" t="IncludeFlat">
+      <e p="Client" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Client.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Client.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="TcpClient.cs" t="Include" />
+      </e>
       <e p="Client14" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -40,6 +54,19 @@
         <e p="Server.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="Server" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Server.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Server.csproj" t="IncludeRecursive" />
+        <e p="TcpServer.cs" t="Include" />
+      </e>
       <e p="SocketAsyncEventArgsDemo.sln" t="IncludeFlat" />
     </e>
   </component>
