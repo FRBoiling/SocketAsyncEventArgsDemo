@@ -39,6 +39,7 @@
             this.textBoxMsg = new System.Windows.Forms.TextBox();
             this.btnSend = new System.Windows.Forms.Button();
             this.btnConnect = new System.Windows.Forms.Button();
+            this.btnStop = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBoxIP
@@ -136,11 +137,22 @@
             this.btnConnect.UseVisualStyleBackColor = true;
             this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
+            // btnStop
+            // 
+            this.btnStop.Location = new System.Drawing.Point(333, 98);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(75, 23);
+            this.btnStop.TabIndex = 11;
+            this.btnStop.Text = "停止";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(764, 563);
+            this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnConnect);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.textBoxMsg);
@@ -174,6 +186,7 @@
         private System.Windows.Forms.TextBox textBoxMsg;
         private System.Windows.Forms.Button btnSend;
         private System.Windows.Forms.Button btnConnect;
+        private System.Windows.Forms.Button btnStop;
     }
 }
 

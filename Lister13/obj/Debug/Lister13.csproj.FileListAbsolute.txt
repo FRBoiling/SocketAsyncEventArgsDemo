@@ -15,3 +15,13 @@ C:\Users\zhx\Documents\Visual Studio 2012\Projects\socketAsync02\Lister13\obj\De
 C:\Users\zhx\Documents\Visual Studio 2012\Projects\socketAsync02\Lister13\obj\Debug\Lister13.csproj.GenerateResource.Cache
 C:\Users\zhx\Documents\Visual Studio 2012\Projects\socketAsync02\Lister13\obj\Debug\Lister13.exe
 C:\Users\zhx\Documents\Visual Studio 2012\Projects\socketAsync02\Lister13\obj\Debug\Lister13.pdb
+D:\code\SocketAsyncEventArgsDemo\Lister13\bin\Debug\Lister13.exe.config
+D:\code\SocketAsyncEventArgsDemo\Lister13\bin\Debug\Lister13.exe
+D:\code\SocketAsyncEventArgsDemo\Lister13\bin\Debug\Lister13.pdb
+D:\code\SocketAsyncEventArgsDemo\Lister13\obj\Debug\Lister13.csprojAssemblyReference.cache
+D:\code\SocketAsyncEventArgsDemo\Lister13\obj\Debug\Lister13.Form1.resources
+D:\code\SocketAsyncEventArgsDemo\Lister13\obj\Debug\Lister13.Properties.Resources.resources
+D:\code\SocketAsyncEventArgsDemo\Lister13\obj\Debug\Lister13.csproj.GenerateResource.cache
+D:\code\SocketAsyncEventArgsDemo\Lister13\obj\Debug\Lister13.csproj.CoreCompileInputs.cache
+D:\code\SocketAsyncEventArgsDemo\Lister13\obj\Debug\Lister13.exe
+D:\code\SocketAsyncEventArgsDemo\Lister13\obj\Debug\Lister13.pdb

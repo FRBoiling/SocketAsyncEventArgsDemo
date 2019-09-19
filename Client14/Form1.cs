@@ -121,5 +121,9 @@ namespace Client14
         {
 
         }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

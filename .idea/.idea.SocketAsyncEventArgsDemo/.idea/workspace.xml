@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21d06166-7b8c-43e9-9f3f-4581b2dc8b7d" name="Default" comment="NF[demo] SocketAsyncEventArgs Demo">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SocketAsyncEventArgsDemo/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SocketAsyncEventArgsDemo/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SocketAsyncEventArgsDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SocketAsyncEventArgsDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SocketAsyncEventArgsDemo/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/socketAsyncEventArgsDemo/v15/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/socketAsyncEventArgsDemo/v15/Server/sqlite3/db.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/socketAsyncEventArgsDemo/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/socketAsyncEventArgsDemo/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/socketAsyncEventArgsDemo/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client14/bin/0218.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client14/bin/Debug/Client14.vshost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client14/bin/Debug/Client14.vshost.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client14/bin/Debug/Client14.vshost.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client14/obj/Debug/Client14.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client14/obj/Debug/Client14.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client14/obj/Debug/Client14.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client14/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client14/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client14/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client14/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client14/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lister13/bin/Debug/Lister13.vshost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lister13/bin/Debug/Lister13.vshost.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lister13/bin/Debug/Lister13.vshost.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lister13/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lister13/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lister13/obj/Debug/Lister13.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lister13/obj/Debug/Lister13.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lister13/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lister13/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lister13/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Client.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Client14/Client.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+              <folding>
+                <marker date="1567068845273" expanded="true" signature="0:415" ph="/* ┌──────────────────────────────────────────────────────────────┐ ... */" />
+                <marker date="1567068845273" expanded="false" signature="423:600" ph="..." />
+                <marker date="1567068845273" expanded="true" signature="620:19674" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="627:12479" ph="Client 连接到server，收发消息逻辑" />
+                <marker date="1567068845273" expanded="true" signature="689:12464" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="1439:1500" ph="/// 当前连接状态   ... " />
+                <marker date="1567068845273" expanded="true" signature="1894:2058" ph="/* Create an uninitialized client instance. ... */" />
+                <marker date="1567068845273" expanded="true" signature="2105:2468" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="2478:2603" ph="/// 连接到主机   ... " />
+                <marker date="1567068845273" expanded="true" signature="2642:3204" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="3280:3384" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="3498:3876" ph="{...}" />
+                <marker date="1567068845273" expanded="false" signature="3887:9263" ph="args" />
+                <marker date="1567068845273" expanded="true" signature="3909:4010" ph="/// 初始化收发参数   ... " />
+                <marker date="1567068845273" expanded="true" signature="4064:4607" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="4617:4730" ph="/// 初始化发送参数MySocketEventArgs   ... " />
+                <marker date="1567068845273" expanded="true" signature="4771:5289" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="5357:6035" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="5560:6025" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="6045:6298" ph="/* This method is invoked when an asynchronous receive operation completes. ... */" />
+                <marker date="1567068845273" expanded="true" signature="6358:8790" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="6384:8672" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="6602:8555" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="6994:7109" ph="/* 注意: 这里是需要和服务器有协议的,我做了个简单的协议,就是一个完整的包是包长(4字节)+包数据,便于处理,当然你可以定义自己需要的; ... */" />
+                <marker date="1567068845273" expanded="true" signature="7324:7842" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="7871:7983" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="8054:8441" ph="/* 注意:你一定会问,这里为什么要用do-while循环? ... */" />
+                <marker date="1567068845273" expanded="true" signature="8576:8658" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="8705:8780" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="8800:9051" ph="/* This method is invoked when an asynchronous send operation completes. ... */" />
+                <marker date="1567068845273" expanded="true" signature="9108:9243" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="9172:9233" ph="{...}" />
+                <marker date="1567068845273" expanded="false" signature="9273:12154" ph="read write" />
+                <marker date="1567068845273" expanded="true" signature="9301:9408" ph="/* Close socket in case of failure and throws ... */" />
+                <marker date="1567068845273" expanded="true" signature="9466:10474" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="9549:10159" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="9648:9737" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="9774:9930" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="9954:10145" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="10009:10088" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="10568:11579" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="10605:11448" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="11101:11184" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="11465:11569" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="11589:11697" ph="/// 使用新进程通知事件回调   ... " />
+                <marker date="1567068845273" expanded="true" signature="11746:12134" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="11820:11896" ph="/* ServerDataHandler(buff); //可直接调用. ... */" />
+                <marker date="1567068845273" expanded="true" signature="11973:12049" ph="{...}" />
+                <marker date="1567068845273" expanded="false" signature="12164:12458" ph="IDisposable Members" />
+                <marker date="1567068845273" expanded="true" signature="12275:12439" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="12363:12429" ph="{...}" />
+                <marker date="1567068845273" expanded="false" signature="12484:14432" ph="BufferManager" />
+                <marker date="1567068845273" expanded="true" signature="12529:14417" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="12902:13078" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="13172:13355" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="13195:13300" ph="/* create one big large buffer and divide that ... */" />
+                <marker date="1567068845273" expanded="true" signature="13365:13563" ph="/* Assigns a buffer from the buffer pool to the ... */" />
+                <marker date="1567068845273" expanded="true" signature="13620:14117" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="13674:13781" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="13798:14082" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="13878:13948" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="14127:14246" ph="/* Removes the buffer from a SocketAsyncEventArg object. ... */" />
+                <marker date="1567068845273" expanded="true" signature="14304:14411" ph="{...}" />
+                <marker date="1567068845273" expanded="false" signature="14438:14803" ph="MySocketEventArgs 获取SocketAsyncEventArgs 的使用状态" />
+                <marker date="1567068845273" expanded="true" signature="14543:14788" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="14559:14625" ph="/// 标识，只是一个编号而已   ... " />
+                <marker date="1567068845273" expanded="true" signature="14676:14740" ph="/// 设置/获取使用状态   ... " />
+                <marker date="1567068845273" expanded="false" signature="14809:19671" ph="Request" />
+                <marker date="1567068845273" expanded="true" signature="14842:19656" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="15171:15231" ph="/// 心跳定时器   ... " />
+                <marker date="1567068845273" expanded="true" signature="15296:15358" ph="/// 判断是否已连接   ... " />
+                <marker date="1567068845273" expanded="true" signature="15395:15482" ph="{...}" />
+                <marker date="1567068845273" expanded="false" signature="15494:18914" ph="基本方法" />
+                <marker date="1567068845273" expanded="true" signature="15516:15611" ph="/// 连接到服务器   ... " />
+                <marker date="1567068845273" expanded="true" signature="15673:16383" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="15751:15813" ph="/* string ip = &quot;192.168.1.158&quot;; ... */" />
+                <marker date="1567068845273" expanded="true" signature="16137:16341" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="16393:16452" ph="/// 断开连接   ... " />
+                <marker date="1567068845273" expanded="true" signature="16492:16783" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="16518:16664" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="16694:16773" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="16793:16894" ph="/// 尝试连接server，成功则返回true ... " />
+                <marker date="1567068845273" expanded="true" signature="16942:17528" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="17035:17382" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="17201:17307" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="17412:17474" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="17537:17698" ph="/// 发送消息   ... " />
+                <marker date="1567068845273" expanded="true" signature="17746:18021" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="17871:17953" ph="/* 加密,根据自己的需要可以考虑把消息加密 ... */" />
+                <marker date="1567068845273" expanded="true" signature="18032:18168" ph="/// 发送字节流   ... " />
+                <marker date="1567068845273" expanded="true" signature="18206:18326" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="18338:18439" ph="/// 接收消息   ... " />
+                <marker date="1567068845273" expanded="true" signature="18501:18679" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="18524:18593" ph="/* To do something ... */" />
+                <marker date="1567068845273" expanded="true" signature="18691:18752" ph="/// 服务器已断开   ... " />
+                <marker date="1567068845273" expanded="true" signature="18800:18894" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="18959:19354" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="19005:19140" ph="{...}" />
+                <marker date="1567068845273" expanded="true" signature="19363:19491" ph="///  ... " />
+                <marker date="1567068845273" expanded="true" signature="19580:19650" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lister13/Server.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3496">
+              <caret line="229" column="34" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="34" />
+              <folding>
+                <marker date="1567068853715" expanded="true" signature="0:415" ph="/* ┌──────────────────────────────────────────────────────────────┐ ... */" />
+                <marker date="1567068853715" expanded="false" signature="423:600" ph="..." />
+                <marker date="1567068853715" expanded="true" signature="621:18616" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="628:14792" ph="server端" />
+                <marker date="1567068853715" expanded="true" signature="660:14777" ph="{...}" />
+                <marker date="1567068853715" expanded="false" signature="1094:2009" ph="##region" />
+                <marker date="1567068853715" expanded="true" signature="1110:1297" ph="/// 客户端连接数量变化时触发   ... " />
+                <marker date="1567068853715" expanded="true" signature="1389:1546" ph="/// 接收到客户端的数据   ... " />
+                <marker date="1567068853715" expanded="true" signature="1730:1796" ph="/// 客户端连接数量变化事件   ... " />
+                <marker date="1567068853715" expanded="true" signature="1868:1934" ph="/// 接收到客户端的数据事件   ... " />
+                <marker date="1567068853715" expanded="false" signature="2019:2200" ph="定义属性" />
+                <marker date="1567068853715" expanded="true" signature="2041:2103" ph="/// 获取客户端列表   ... " />
+                <marker date="1567068853715" expanded="true" signature="2210:2386" ph="/// 构造函数   ... " />
+                <marker date="1567068853715" expanded="true" signature="2451:3030" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="2600:2756" ph="/* allocate buffers such that the maximum number of sockets can have one outstanding read and ... */" />
+                <marker date="1567068853715" expanded="true" signature="3040:3098" ph="/// 初始化   ... " />
+                <marker date="1567068853715" expanded="true" signature="3125:4088" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="3148:3285" ph="/* Allocates one large byte buffer which all I/O operations use a piece of.  This gaurds ... */" />
+                <marker date="1567068853715" expanded="true" signature="3552:4078" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="4099:4209" ph="/// 启动服务   ... " />
+                <marker date="1567068853715" expanded="true" signature="4261:4862" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="4287:4764" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="4794:4852" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="4872:4931" ph="/// 停止服务   ... " />
+                <marker date="1567068853715" expanded="true" signature="4958:5938" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="5012:5247" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="5046:5195" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="5264:5397" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="5460:5609" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="5629:5926" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="5994:6152" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="6020:6108" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="6163:6405" ph="/* Begins an operation to accept a connection request from the client ... */" />
+                <marker date="1567068853715" expanded="true" signature="6474:7100" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="6524:6723" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="6740:6905" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="7015:7090" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="7110:7274" ph="/* This method is the callback method associated with Socket.AcceptAsync ... */" />
+                <marker date="1567068853715" expanded="true" signature="7351:7401" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="7461:8766" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="7487:8495" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="7576:7702" ph="/* Get the socket for the accepted client connection and put it into the ... */" />
+                <marker date="1567068853715" expanded="true" signature="8394:8481" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="8528:8604" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="8833:9391" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="8978:9380" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="9402:9655" ph="/* This method is invoked when an asynchronous receive operation completes. ... */" />
+                <marker date="1567068853715" expanded="true" signature="9715:11610" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="9741:11467" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="9975:11354" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="10606:10718" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="11375:11453" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="11500:11600" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="11620:11871" ph="/* This method is invoked when an asynchronous send operation completes. ... */" />
+                <marker date="1567068853715" expanded="true" signature="11928:12489" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="11992:12396" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="12307:12382" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="12413:12479" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="12571:13492" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="12952:13040" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="13502:13692" ph="/// 对数据进行打包,然后再发送   ... " />
+                <marker date="1567068853715" expanded="true" signature="13762:14770" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="13941:14599" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="14270:14335" ph="/* token.Socket.Send(buff); ... */" />
+                <marker date="1567068853715" expanded="true" signature="14631:14730" ph="{...}" />
+                <marker date="1567068853715" expanded="false" signature="14798:16746" ph="BufferManager" />
+                <marker date="1567068853715" expanded="true" signature="14843:16731" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="15216:15392" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="15486:15669" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="15509:15614" ph="/* create one big large buffer and divide that ... */" />
+                <marker date="1567068853715" expanded="true" signature="15679:15877" ph="/* Assigns a buffer from the buffer pool to the ... */" />
+                <marker date="1567068853715" expanded="true" signature="15934:16431" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="15988:16095" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="16112:16396" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="16192:16262" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="16441:16560" ph="/* Removes the buffer from a SocketAsyncEventArg object. ... */" />
+                <marker date="1567068853715" expanded="true" signature="16618:16725" ph="{...}" />
+                <marker date="1567068853715" expanded="false" signature="16752:17805" ph="SocketEventPool" />
+                <marker date="1567068853715" expanded="true" signature="16801:17790" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="16898:16982" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="17035:17271" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="17281:17397" ph="/* Removes a SocketAsyncEventArgs instance from the pool ... */" />
+                <marker date="1567068853715" expanded="true" signature="17439:17550" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="17646:17707" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="17736:17784" ph="{...}" />
+                <marker date="1567068853715" expanded="false" signature="17811:18612" ph="AsyncUserToken" />
+                <marker date="1567068853715" expanded="true" signature="17858:18597" ph="{...}" />
+                <marker date="1567068853715" expanded="true" signature="17873:17935" ph="/// 客户端IP地址   ... " />
+                <marker date="1567068853715" expanded="true" signature="17994:18053" ph="/// 远程地址   ... " />
+                <marker date="1567068853715" expanded="true" signature="18108:18170" ph="/// 通信SOKET   ... " />
+                <marker date="1567068853715" expanded="true" signature="18223:18282" ph="/// 连接时间   ... " />
+                <marker date="1567068853715" expanded="true" signature="18342:18402" ph="/// 数据缓存区   ... " />
+                <marker date="1567068853715" expanded="true" signature="18527:18591" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>connect</find>
+      <find>bind</find>
+      <find>AcceptAsync</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Client14/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lister13/Server.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/978BB286-3A1E-4C66-A74B-72341E3A291D/4d/4e516274/Socket.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Client14/Client.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SocketAsyncEventArgsDemo (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SocketAsyncEventArgsDemo (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Client14" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Client14">
+    <configuration name="Client14" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Client14/bin/Debug/Client14.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client14/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Client14/Client14.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+    </configuration>
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+    <configuration name="Lister13" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Lister13/bin/Debug/Lister13.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lister13/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lister13/Lister13.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue=".NET Project.Lister13" />
+      <item itemvalue=".NET Project.Client14" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Client14" />
+        <item itemvalue=".NET Project.Lister13" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21d06166-7b8c-43e9-9f3f-4581b2dc8b7d" name="Default" comment="" />
+      <created>1567074546882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567074546882</updated>
+      <workItem from="1567074548671" duration="8783000" />
+      <workItem from="1567233145209" duration="3616000" />
+    </task>
+    <task id="LOCAL-00001" summary="NF[demo] SocketAsyncEventArgs Demo">
+      <created>1567074777918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567074777918</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12399000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291536" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25248072" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.3291536" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="NF[demo] SocketAsyncEventArgs Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="NF[demo] SocketAsyncEventArgs Demo" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Client14/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <marker date="1567068845273" expanded="true" signature="0:415" ph="/* ┌──────────────────────────────────────────────────────────────┐ ... */" />
+            <marker date="1567068845273" expanded="false" signature="423:600" ph="..." />
+            <marker date="1567068845273" expanded="true" signature="620:19674" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="627:12479" ph="Client 连接到server，收发消息逻辑" />
+            <marker date="1567068845273" expanded="true" signature="689:12464" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="1439:1500" ph="/// 当前连接状态   ... " />
+            <marker date="1567068845273" expanded="true" signature="1894:2058" ph="/* Create an uninitialized client instance. ... */" />
+            <marker date="1567068845273" expanded="true" signature="2105:2468" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="2478:2603" ph="/// 连接到主机   ... " />
+            <marker date="1567068845273" expanded="true" signature="2642:3204" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="3280:3384" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="3498:3876" ph="{...}" />
+            <marker date="1567068845273" expanded="false" signature="3887:9263" ph="args" />
+            <marker date="1567068845273" expanded="true" signature="3909:4010" ph="/// 初始化收发参数   ... " />
+            <marker date="1567068845273" expanded="true" signature="4064:4607" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="4617:4730" ph="/// 初始化发送参数MySocketEventArgs   ... " />
+            <marker date="1567068845273" expanded="true" signature="4771:5289" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="5357:6035" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="5560:6025" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="6045:6298" ph="/* This method is invoked when an asynchronous receive operation completes. ... */" />
+            <marker date="1567068845273" expanded="true" signature="6358:8790" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="6384:8672" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="6602:8555" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="6994:7109" ph="/* 注意: 这里是需要和服务器有协议的,我做了个简单的协议,就是一个完整的包是包长(4字节)+包数据,便于处理,当然你可以定义自己需要的; ... */" />
+            <marker date="1567068845273" expanded="true" signature="7324:7842" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="7871:7983" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="8054:8441" ph="/* 注意:你一定会问,这里为什么要用do-while循环? ... */" />
+            <marker date="1567068845273" expanded="true" signature="8576:8658" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="8705:8780" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="8800:9051" ph="/* This method is invoked when an asynchronous send operation completes. ... */" />
+            <marker date="1567068845273" expanded="true" signature="9108:9243" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="9172:9233" ph="{...}" />
+            <marker date="1567068845273" expanded="false" signature="9273:12154" ph="read write" />
+            <marker date="1567068845273" expanded="true" signature="9301:9408" ph="/* Close socket in case of failure and throws ... */" />
+            <marker date="1567068845273" expanded="true" signature="9466:10474" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="9549:10159" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="9648:9737" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="9774:9930" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="9954:10145" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="10009:10088" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="10568:11579" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="10605:11448" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="11101:11184" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="11465:11569" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="11589:11697" ph="/// 使用新进程通知事件回调   ... " />
+            <marker date="1567068845273" expanded="true" signature="11746:12134" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="11820:11896" ph="/* ServerDataHandler(buff); //可直接调用. ... */" />
+            <marker date="1567068845273" expanded="true" signature="11973:12049" ph="{...}" />
+            <marker date="1567068845273" expanded="false" signature="12164:12458" ph="IDisposable Members" />
+            <marker date="1567068845273" expanded="true" signature="12275:12439" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="12363:12429" ph="{...}" />
+            <marker date="1567068845273" expanded="false" signature="12484:14432" ph="BufferManager" />
+            <marker date="1567068845273" expanded="true" signature="12529:14417" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="12902:13078" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="13172:13355" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="13195:13300" ph="/* create one big large buffer and divide that ... */" />
+            <marker date="1567068845273" expanded="true" signature="13365:13563" ph="/* Assigns a buffer from the buffer pool to the ... */" />
+            <marker date="1567068845273" expanded="true" signature="13620:14117" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="13674:13781" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="13798:14082" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="13878:13948" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="14127:14246" ph="/* Removes the buffer from a SocketAsyncEventArg object. ... */" />
+            <marker date="1567068845273" expanded="true" signature="14304:14411" ph="{...}" />
+            <marker date="1567068845273" expanded="false" signature="14438:14803" ph="MySocketEventArgs 获取SocketAsyncEventArgs 的使用状态" />
+            <marker date="1567068845273" expanded="true" signature="14543:14788" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="14559:14625" ph="/// 标识，只是一个编号而已   ... " />
+            <marker date="1567068845273" expanded="true" signature="14676:14740" ph="/// 设置/获取使用状态   ... " />
+            <marker date="1567068845273" expanded="false" signature="14809:19671" ph="Request" />
+            <marker date="1567068845273" expanded="true" signature="14842:19656" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="15171:15231" ph="/// 心跳定时器   ... " />
+            <marker date="1567068845273" expanded="true" signature="15296:15358" ph="/// 判断是否已连接   ... " />
+            <marker date="1567068845273" expanded="true" signature="15395:15482" ph="{...}" />
+            <marker date="1567068845273" expanded="false" signature="15494:18914" ph="基本方法" />
+            <marker date="1567068845273" expanded="true" signature="15516:15611" ph="/// 连接到服务器   ... " />
+            <marker date="1567068845273" expanded="true" signature="15673:16383" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="15751:15813" ph="/* string ip = &quot;192.168.1.158&quot;; ... */" />
+            <marker date="1567068845273" expanded="true" signature="16137:16341" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="16393:16452" ph="/// 断开连接   ... " />
+            <marker date="1567068845273" expanded="true" signature="16492:16783" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="16518:16664" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="16694:16773" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="16793:16894" ph="/// 尝试连接server，成功则返回true ... " />
+            <marker date="1567068845273" expanded="true" signature="16942:17528" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="17035:17382" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="17201:17307" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="17412:17474" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="17537:17698" ph="/// 发送消息   ... " />
+            <marker date="1567068845273" expanded="true" signature="17746:18021" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="17871:17953" ph="/* 加密,根据自己的需要可以考虑把消息加密 ... */" />
+            <marker date="1567068845273" expanded="true" signature="18032:18168" ph="/// 发送字节流   ... " />
+            <marker date="1567068845273" expanded="true" signature="18206:18326" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="18338:18439" ph="/// 接收消息   ... " />
+            <marker date="1567068845273" expanded="true" signature="18501:18679" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="18524:18593" ph="/* To do something ... */" />
+            <marker date="1567068845273" expanded="true" signature="18691:18752" ph="/// 服务器已断开   ... " />
+            <marker date="1567068845273" expanded="true" signature="18800:18894" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="18959:19354" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="19005:19140" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="19363:19491" ph="///  ... " />
+            <marker date="1567068845273" expanded="true" signature="19580:19650" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lister13/Server.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3496">
+          <caret line="229" column="34" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="34" />
+          <folding>
+            <marker date="1567068853715" expanded="true" signature="0:415" ph="/* ┌──────────────────────────────────────────────────────────────┐ ... */" />
+            <marker date="1567068853715" expanded="false" signature="423:600" ph="..." />
+            <marker date="1567068853715" expanded="true" signature="621:18616" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="628:14792" ph="server端" />
+            <marker date="1567068853715" expanded="true" signature="660:14777" ph="{...}" />
+            <marker date="1567068853715" expanded="false" signature="1094:2009" ph="##region" />
+            <marker date="1567068853715" expanded="true" signature="1110:1297" ph="/// 客户端连接数量变化时触发   ... " />
+            <marker date="1567068853715" expanded="true" signature="1389:1546" ph="/// 接收到客户端的数据   ... " />
+            <marker date="1567068853715" expanded="true" signature="1730:1796" ph="/// 客户端连接数量变化事件   ... " />
+            <marker date="1567068853715" expanded="true" signature="1868:1934" ph="/// 接收到客户端的数据事件   ... " />
+            <marker date="1567068853715" expanded="false" signature="2019:2200" ph="定义属性" />
+            <marker date="1567068853715" expanded="true" signature="2041:2103" ph="/// 获取客户端列表   ... " />
+            <marker date="1567068853715" expanded="true" signature="2210:2386" ph="/// 构造函数   ... " />
+            <marker date="1567068853715" expanded="true" signature="2451:3030" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="2600:2756" ph="/* allocate buffers such that the maximum number of sockets can have one outstanding read and ... */" />
+            <marker date="1567068853715" expanded="true" signature="3040:3098" ph="/// 初始化   ... " />
+            <marker date="1567068853715" expanded="true" signature="3125:4088" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="3148:3285" ph="/* Allocates one large byte buffer which all I/O operations use a piece of.  This gaurds ... */" />
+            <marker date="1567068853715" expanded="true" signature="3552:4078" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="4099:4209" ph="/// 启动服务   ... " />
+            <marker date="1567068853715" expanded="true" signature="4261:4862" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="4287:4764" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="4794:4852" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="4872:4931" ph="/// 停止服务   ... " />
+            <marker date="1567068853715" expanded="true" signature="4958:5938" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="5012:5247" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="5046:5195" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="5264:5397" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="5460:5609" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="5629:5926" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="5994:6152" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="6020:6108" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="6163:6405" ph="/* Begins an operation to accept a connection request from the client ... */" />
+            <marker date="1567068853715" expanded="true" signature="6474:7100" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="6524:6723" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="6740:6905" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="7015:7090" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="7110:7274" ph="/* This method is the callback method associated with Socket.AcceptAsync ... */" />
+            <marker date="1567068853715" expanded="true" signature="7351:7401" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="7461:8766" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="7487:8495" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="7576:7702" ph="/* Get the socket for the accepted client connection and put it into the ... */" />
+            <marker date="1567068853715" expanded="true" signature="8394:8481" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="8528:8604" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="8833:9391" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="8978:9380" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="9402:9655" ph="/* This method is invoked when an asynchronous receive operation completes. ... */" />
+            <marker date="1567068853715" expanded="true" signature="9715:11610" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="9741:11467" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="9975:11354" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="10606:10718" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="11375:11453" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="11500:11600" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="11620:11871" ph="/* This method is invoked when an asynchronous send operation completes. ... */" />
+            <marker date="1567068853715" expanded="true" signature="11928:12489" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="11992:12396" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="12307:12382" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="12413:12479" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="12571:13492" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="12952:13040" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="13502:13692" ph="/// 对数据进行打包,然后再发送   ... " />
+            <marker date="1567068853715" expanded="true" signature="13762:14770" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="13941:14599" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="14270:14335" ph="/* token.Socket.Send(buff); ... */" />
+            <marker date="1567068853715" expanded="true" signature="14631:14730" ph="{...}" />
+            <marker date="1567068853715" expanded="false" signature="14798:16746" ph="BufferManager" />
+            <marker date="1567068853715" expanded="true" signature="14843:16731" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="15216:15392" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="15486:15669" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="15509:15614" ph="/* create one big large buffer and divide that ... */" />
+            <marker date="1567068853715" expanded="true" signature="15679:15877" ph="/* Assigns a buffer from the buffer pool to the ... */" />
+            <marker date="1567068853715" expanded="true" signature="15934:16431" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="15988:16095" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="16112:16396" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="16192:16262" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="16441:16560" ph="/* Removes the buffer from a SocketAsyncEventArg object. ... */" />
+            <marker date="1567068853715" expanded="true" signature="16618:16725" ph="{...}" />
+            <marker date="1567068853715" expanded="false" signature="16752:17805" ph="SocketEventPool" />
+            <marker date="1567068853715" expanded="true" signature="16801:17790" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="16898:16982" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="17035:17271" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="17281:17397" ph="/* Removes a SocketAsyncEventArgs instance from the pool ... */" />
+            <marker date="1567068853715" expanded="true" signature="17439:17550" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="17646:17707" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="17736:17784" ph="{...}" />
+            <marker date="1567068853715" expanded="false" signature="17811:18612" ph="AsyncUserToken" />
+            <marker date="1567068853715" expanded="true" signature="17858:18597" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="17873:17935" ph="/// 客户端IP地址   ... " />
+            <marker date="1567068853715" expanded="true" signature="17994:18053" ph="/// 远程地址   ... " />
+            <marker date="1567068853715" expanded="true" signature="18108:18170" ph="/// 通信SOKET   ... " />
+            <marker date="1567068853715" expanded="true" signature="18223:18282" ph="/// 连接时间   ... " />
+            <marker date="1567068853715" expanded="true" signature="18342:18402" ph="/// 数据缓存区   ... " />
+            <marker date="1567068853715" expanded="true" signature="18527:18591" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/978BB286-3A1E-4C66-A74B-72341E3A291D/4d/4e516274/Socket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="4417" column="28" selection-start-line="4417" selection-start-column="16" selection-end-line="4417" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lister13/Server.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3496">
+          <caret line="229" column="34" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="34" />
+          <folding>
+            <marker date="1567068853715" expanded="true" signature="0:415" ph="/* ┌──────────────────────────────────────────────────────────────┐ ... */" />
+            <marker date="1567068853715" expanded="false" signature="423:600" ph="..." />
+            <marker date="1567068853715" expanded="true" signature="621:18616" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="628:14792" ph="server端" />
+            <marker date="1567068853715" expanded="true" signature="660:14777" ph="{...}" />
+            <marker date="1567068853715" expanded="false" signature="1094:2009" ph="##region" />
+            <marker date="1567068853715" expanded="true" signature="1110:1297" ph="/// 客户端连接数量变化时触发   ... " />
+            <marker date="1567068853715" expanded="true" signature="1389:1546" ph="/// 接收到客户端的数据   ... " />
+            <marker date="1567068853715" expanded="true" signature="1730:1796" ph="/// 客户端连接数量变化事件   ... " />
+            <marker date="1567068853715" expanded="true" signature="1868:1934" ph="/// 接收到客户端的数据事件   ... " />
+            <marker date="1567068853715" expanded="false" signature="2019:2200" ph="定义属性" />
+            <marker date="1567068853715" expanded="true" signature="2041:2103" ph="/// 获取客户端列表   ... " />
+            <marker date="1567068853715" expanded="true" signature="2210:2386" ph="/// 构造函数   ... " />
+            <marker date="1567068853715" expanded="true" signature="2451:3030" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="2600:2756" ph="/* allocate buffers such that the maximum number of sockets can have one outstanding read and ... */" />
+            <marker date="1567068853715" expanded="true" signature="3040:3098" ph="/// 初始化   ... " />
+            <marker date="1567068853715" expanded="true" signature="3125:4088" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="3148:3285" ph="/* Allocates one large byte buffer which all I/O operations use a piece of.  This gaurds ... */" />
+            <marker date="1567068853715" expanded="true" signature="3552:4078" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="4099:4209" ph="/// 启动服务   ... " />
+            <marker date="1567068853715" expanded="true" signature="4261:4862" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="4287:4764" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="4794:4852" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="4872:4931" ph="/// 停止服务   ... " />
+            <marker date="1567068853715" expanded="true" signature="4958:5938" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="5012:5247" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="5046:5195" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="5264:5397" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="5460:5609" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="5629:5926" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="5994:6152" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="6020:6108" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="6163:6405" ph="/* Begins an operation to accept a connection request from the client ... */" />
+            <marker date="1567068853715" expanded="true" signature="6474:7100" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="6524:6723" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="6740:6905" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="7015:7090" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="7110:7274" ph="/* This method is the callback method associated with Socket.AcceptAsync ... */" />
+            <marker date="1567068853715" expanded="true" signature="7351:7401" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="7461:8766" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="7487:8495" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="7576:7702" ph="/* Get the socket for the accepted client connection and put it into the ... */" />
+            <marker date="1567068853715" expanded="true" signature="8394:8481" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="8528:8604" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="8833:9391" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="8978:9380" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="9402:9655" ph="/* This method is invoked when an asynchronous receive operation completes. ... */" />
+            <marker date="1567068853715" expanded="true" signature="9715:11610" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="9741:11467" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="9975:11354" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="10606:10718" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="11375:11453" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="11500:11600" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="11620:11871" ph="/* This method is invoked when an asynchronous send operation completes. ... */" />
+            <marker date="1567068853715" expanded="true" signature="11928:12489" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="11992:12396" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="12307:12382" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="12413:12479" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="12571:13492" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="12952:13040" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="13502:13692" ph="/// 对数据进行打包,然后再发送   ... " />
+            <marker date="1567068853715" expanded="true" signature="13762:14770" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="13941:14599" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="14270:14335" ph="/* token.Socket.Send(buff); ... */" />
+            <marker date="1567068853715" expanded="true" signature="14631:14730" ph="{...}" />
+            <marker date="1567068853715" expanded="false" signature="14798:16746" ph="BufferManager" />
+            <marker date="1567068853715" expanded="true" signature="14843:16731" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="15216:15392" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="15486:15669" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="15509:15614" ph="/* create one big large buffer and divide that ... */" />
+            <marker date="1567068853715" expanded="true" signature="15679:15877" ph="/* Assigns a buffer from the buffer pool to the ... */" />
+            <marker date="1567068853715" expanded="true" signature="15934:16431" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="15988:16095" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="16112:16396" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="16192:16262" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="16441:16560" ph="/* Removes the buffer from a SocketAsyncEventArg object. ... */" />
+            <marker date="1567068853715" expanded="true" signature="16618:16725" ph="{...}" />
+            <marker date="1567068853715" expanded="false" signature="16752:17805" ph="SocketEventPool" />
+            <marker date="1567068853715" expanded="true" signature="16801:17790" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="16898:16982" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="17035:17271" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="17281:17397" ph="/* Removes a SocketAsyncEventArgs instance from the pool ... */" />
+            <marker date="1567068853715" expanded="true" signature="17439:17550" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="17646:17707" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="17736:17784" ph="{...}" />
+            <marker date="1567068853715" expanded="false" signature="17811:18612" ph="AsyncUserToken" />
+            <marker date="1567068853715" expanded="true" signature="17858:18597" ph="{...}" />
+            <marker date="1567068853715" expanded="true" signature="17873:17935" ph="/// 客户端IP地址   ... " />
+            <marker date="1567068853715" expanded="true" signature="17994:18053" ph="/// 远程地址   ... " />
+            <marker date="1567068853715" expanded="true" signature="18108:18170" ph="/// 通信SOKET   ... " />
+            <marker date="1567068853715" expanded="true" signature="18223:18282" ph="/// 连接时间   ... " />
+            <marker date="1567068853715" expanded="true" signature="18342:18402" ph="/// 数据缓存区   ... " />
+            <marker date="1567068853715" expanded="true" signature="18527:18591" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client14/Client14.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client14/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+          <folding>
+            <marker date="1567068845273" expanded="true" signature="0:415" ph="/* ┌──────────────────────────────────────────────────────────────┐ ... */" />
+            <marker date="1567068845273" expanded="false" signature="423:600" ph="..." />
+            <marker date="1567068845273" expanded="true" signature="620:19674" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="627:12479" ph="Client 连接到server，收发消息逻辑" />
+            <marker date="1567068845273" expanded="true" signature="689:12464" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="1439:1500" ph="/// 当前连接状态   ... " />
+            <marker date="1567068845273" expanded="true" signature="1894:2058" ph="/* Create an uninitialized client instance. ... */" />
+            <marker date="1567068845273" expanded="true" signature="2105:2468" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="2478:2603" ph="/// 连接到主机   ... " />
+            <marker date="1567068845273" expanded="true" signature="2642:3204" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="3280:3384" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="3498:3876" ph="{...}" />
+            <marker date="1567068845273" expanded="false" signature="3887:9263" ph="args" />
+            <marker date="1567068845273" expanded="true" signature="3909:4010" ph="/// 初始化收发参数   ... " />
+            <marker date="1567068845273" expanded="true" signature="4064:4607" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="4617:4730" ph="/// 初始化发送参数MySocketEventArgs   ... " />
+            <marker date="1567068845273" expanded="true" signature="4771:5289" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="5357:6035" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="5560:6025" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="6045:6298" ph="/* This method is invoked when an asynchronous receive operation completes. ... */" />
+            <marker date="1567068845273" expanded="true" signature="6358:8790" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="6384:8672" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="6602:8555" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="6994:7109" ph="/* 注意: 这里是需要和服务器有协议的,我做了个简单的协议,就是一个完整的包是包长(4字节)+包数据,便于处理,当然你可以定义自己需要的; ... */" />
+            <marker date="1567068845273" expanded="true" signature="7324:7842" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="7871:7983" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="8054:8441" ph="/* 注意:你一定会问,这里为什么要用do-while循环? ... */" />
+            <marker date="1567068845273" expanded="true" signature="8576:8658" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="8705:8780" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="8800:9051" ph="/* This method is invoked when an asynchronous send operation completes. ... */" />
+            <marker date="1567068845273" expanded="true" signature="9108:9243" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="9172:9233" ph="{...}" />
+            <marker date="1567068845273" expanded="false" signature="9273:12154" ph="read write" />
+            <marker date="1567068845273" expanded="true" signature="9301:9408" ph="/* Close socket in case of failure and throws ... */" />
+            <marker date="1567068845273" expanded="true" signature="9466:10474" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="9549:10159" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="9648:9737" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="9774:9930" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="9954:10145" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="10009:10088" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="10568:11579" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="10605:11448" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="11101:11184" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="11465:11569" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="11589:11697" ph="/// 使用新进程通知事件回调   ... " />
+            <marker date="1567068845273" expanded="true" signature="11746:12134" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="11820:11896" ph="/* ServerDataHandler(buff); //可直接调用. ... */" />
+            <marker date="1567068845273" expanded="true" signature="11973:12049" ph="{...}" />
+            <marker date="1567068845273" expanded="false" signature="12164:12458" ph="IDisposable Members" />
+            <marker date="1567068845273" expanded="true" signature="12275:12439" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="12363:12429" ph="{...}" />
+            <marker date="1567068845273" expanded="false" signature="12484:14432" ph="BufferManager" />
+            <marker date="1567068845273" expanded="true" signature="12529:14417" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="12902:13078" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="13172:13355" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="13195:13300" ph="/* create one big large buffer and divide that ... */" />
+            <marker date="1567068845273" expanded="true" signature="13365:13563" ph="/* Assigns a buffer from the buffer pool to the ... */" />
+            <marker date="1567068845273" expanded="true" signature="13620:14117" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="13674:13781" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="13798:14082" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="13878:13948" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="14127:14246" ph="/* Removes the buffer from a SocketAsyncEventArg object. ... */" />
+            <marker date="1567068845273" expanded="true" signature="14304:14411" ph="{...}" />
+            <marker date="1567068845273" expanded="false" signature="14438:14803" ph="MySocketEventArgs 获取SocketAsyncEventArgs 的使用状态" />
+            <marker date="1567068845273" expanded="true" signature="14543:14788" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="14559:14625" ph="/// 标识，只是一个编号而已   ... " />
+            <marker date="1567068845273" expanded="true" signature="14676:14740" ph="/// 设置/获取使用状态   ... " />
+            <marker date="1567068845273" expanded="false" signature="14809:19671" ph="Request" />
+            <marker date="1567068845273" expanded="true" signature="14842:19656" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="15171:15231" ph="/// 心跳定时器   ... " />
+            <marker date="1567068845273" expanded="true" signature="15296:15358" ph="/// 判断是否已连接   ... " />
+            <marker date="1567068845273" expanded="true" signature="15395:15482" ph="{...}" />
+            <marker date="1567068845273" expanded="false" signature="15494:18914" ph="基本方法" />
+            <marker date="1567068845273" expanded="true" signature="15516:15611" ph="/// 连接到服务器   ... " />
+            <marker date="1567068845273" expanded="true" signature="15673:16383" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="15751:15813" ph="/* string ip = &quot;192.168.1.158&quot;; ... */" />
+            <marker date="1567068845273" expanded="true" signature="16137:16341" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="16393:16452" ph="/// 断开连接   ... " />
+            <marker date="1567068845273" expanded="true" signature="16492:16783" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="16518:16664" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="16694:16773" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="16793:16894" ph="/// 尝试连接server，成功则返回true ... " />
+            <marker date="1567068845273" expanded="true" signature="16942:17528" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="17035:17382" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="17201:17307" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="17412:17474" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="17537:17698" ph="/// 发送消息   ... " />
+            <marker date="1567068845273" expanded="true" signature="17746:18021" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="17871:17953" ph="/* 加密,根据自己的需要可以考虑把消息加密 ... */" />
+            <marker date="1567068845273" expanded="true" signature="18032:18168" ph="/// 发送字节流   ... " />
+            <marker date="1567068845273" expanded="true" signature="18206:18326" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="18338:18439" ph="/// 接收消息   ... " />
+            <marker date="1567068845273" expanded="true" signature="18501:18679" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="18524:18593" ph="/* To do something ... */" />
+            <marker date="1567068845273" expanded="true" signature="18691:18752" ph="/// 服务器已断开   ... " />
+            <marker date="1567068845273" expanded="true" signature="18800:18894" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="18959:19354" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="19005:19140" ph="{...}" />
+            <marker date="1567068845273" expanded="true" signature="19363:19491" ph="///  ... " />
+            <marker date="1567068845273" expanded="true" signature="19580:19650" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
