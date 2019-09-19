@@ -604,7 +604,7 @@ namespace Client14
         private static void TimeElapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
           
-            Request.Send("heartbeat");
+            //Request.Send("heartbeat");
         }
     }
     #endregion
